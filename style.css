@@ -1,0 +1,271 @@
+
+body{
+    background-color:#888 ;
+    height: 3700px;
+}
+
+.container {
+    width: 1270px;
+    background-color: brown;
+ 
+}
+
+img{
+    border:rgb(17, 15, 15) solid 1px;
+    margin-left:65px ;
+}
+
+.logo {
+    letter-spacing: 2px;
+    font-weight:300px ;
+}
+
+h1{
+    text-align: left;
+    color: rgb(182, 170, 243);
+    margin-left: 40px;
+    font-size: 43.8px;
+}
+.span1{
+    color:rgba(71, 61, 139, 0.89);
+}
+
+.nav{
+    
+    color:rgb(34, 45, 199);
+    font-size: 42px;
+    
+}
+.nav ul {
+        display:flex;
+        list-style-type: none;
+        margin-left: 650px;
+        margin-top: -80px;
+       /**/
+      }
+
+.head {
+    margin-top: -30px;
+    background-color: #333;
+    width: 1202px;
+    margin-left: 65px;
+    
+   
+}
+
+.nav ul li a:hover {
+    background-color: white;
+    
+  }
+
+  .nav ul li a {
+      text-decoration: none;
+      display:block;
+      padding-left: 33px;
+      color: rgb(12, 8, 8);
+      
+  }
+  
+  .active {
+      background-color: dimgrey;
+  }
+
+  .contant {
+      margin-top:50px;
+      margin-left: 10px;
+      overflow: hidden;
+      
+  }
+
+  .contant .sidecontant 
+   {
+      width: 45%;
+      float: left;
+           
+  }
+  .contant .sidecontant img
+  { border: white solid 1px;}
+
+  .contant .maincontant {
+    width: 55%;
+    float: right;
+    margin-top: -22px;
+  }
+
+  .contant .maincontant p {
+      font-size: 22px;
+  }
+  .contant .maincontant h2 {
+      color: rgb(13, 51, 53); 
+      font-size: 25px;   
+  }
+  
+.important {
+      margin-top:50px;
+      margin-left: 72px;
+      overflow: hidden;
+      
+  }
+  
+  .important_img {
+      width: 40%;
+      float: left;
+      margin-left: -60px;
+      
+           
+  }
+  .important_img img {
+      margin-top: 20px;
+  }
+
+  .important_text {
+    width: 60%;
+    float: right;
+
+  }
+
+  .important_text  p {
+    font-size: 23px;
+}
+.important_text   h2 {
+    color: rgb(13, 51, 53);  
+    font-size: 25px;   
+
+}
+
+.languages {
+    margin-top:40px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.languages .languages_img {
+    width: 40%;
+    float: left;
+   
+}
+.languages .languages_img  p{
+margin-left: 200px;
+ color: darkblue; }
+
+.languages .languages_text {
+    width: 55%;
+    float: right;
+   margin-left: 30px;
+}
+
+.languages_text  h2 {
+    color: rgb(13, 51, 53);
+    margin-top: -3px;
+    font-size: 25px;   
+
+}
+.languages_text  p{
+    font-size:21px;
+}
+
+.def {
+    margin-top: 30px;
+    margin-left: 70px;
+    font-size : 25px;
+
+
+}
+.def h2 {
+    color: rgb(13, 51, 53);
+
+ 
+}
+
+.def p {
+    color : rgb(17, 5, 5);
+}
+
+button[type="submit"]{
+    background-color: black;
+    color: chartreuse;
+    width: 150px;
+    height: 50px;
+    border: green dotted 2px;
+    font-size: 18px;
+}
+button a {
+    color: chartreuse;
+}
+ .a{
+    width:220px ;
+    height: 50px;
+    color: rgb(52, 160, 66);
+    font-size: 15px;
+    border: teal groove 4px;
+    
+} 
+
+
+.b {
+    border-left: teal solid 5px;
+}
+
+
+.n{
+    color: rgb(59, 6, 13);
+}
+.labelradio {
+    color: rgb(22, 12, 44);
+    font-size: 20px;
+}
+
+.fot {
+    font-size: 22px;
+}
+form{
+    padding-top:-100px ;
+    margin-left: 200px;
+    width: 280px;
+    background-color: rgb(53, 111, 121);
+    margin-top: 80px;
+    font-size: 16px;
+}
+
+option {
+    color:darkviolet
+}
+
+
+
+
+
+footer i {
+    display: block;
+    padding: 20px ;
+}
+
+
+.transition {
+    width: 130px;
+    height: 110px;
+    background:rgba(0, 0, 0, 0.87);
+    transition: width 3s;
+    color:rgb(28, 53, 196);
+    margin-left:525px ;
+    margin-top: 40px;
+
+  }
+  
+  .transition:hover {
+    width: 350px;
+    color:rgb(85, 85, 121);
+    text-align: center;
+
+  }
+ 
+.imgcode {
+    margin-left: 600px;
+    margin-top:-10px;
+}
+  
+.note {
+    margin-left: 680px;
+    margin-top: -420px;
+    font-size: 20px;
+}
